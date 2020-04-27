@@ -2,7 +2,8 @@
 
 'use strict';
 
-const { execSync, spawnSync } = require("child_process");
+//const { execSync, spawnSync } = require("child_process");
+const { execSync, spawnSync } = require("cross-spawn");
 const chalk = require('chalk');
 const fs = require("fs");
 const path = require("path");
